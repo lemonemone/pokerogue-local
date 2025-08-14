@@ -1359,6 +1359,7 @@ $pkmnTable = @{
 	"exeggutor-alola" = "2103"
 	"marowak-alola" = "2105"
 	"eternal-floette" = "2670"
+        "foliat" = "3001"
 	"meowth-galar" = "4052"
 	"ponyta-galar" = "4077"
 	"rapidash-galar" = "4078"

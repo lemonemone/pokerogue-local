@@ -256,6 +256,7 @@ export const tmSpecies: TmSpecies = {
     SpeciesId.GALAR_SLOWKING,
     SpeciesId.GALAR_DARUMAKA,
     SpeciesId.GALAR_DARMANITAN,
+    SpeciesId.FOLIAT,
   ],
   [MoveId.PAY_DAY]: [
     SpeciesId.PIKACHU,

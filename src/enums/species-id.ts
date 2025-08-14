@@ -2088,6 +2088,8 @@ export enum SpeciesId {
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Floette_(Pokémon) | Source} */
   ETERNAL_FLOETTE = 2670,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pokémon) | Source} */
+  FOLIAT = 3001,
+  /** here's foliat :) */
   GALAR_MEOWTH = 4052,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pokémon) | Source} */
   GALAR_PONYTA = 4077,

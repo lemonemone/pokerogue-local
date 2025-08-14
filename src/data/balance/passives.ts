@@ -1099,5 +1099,6 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [SpeciesId.PALDEA_TAUROS]: { 0: AbilityId.STAMINA, 1: AbilityId.ADAPTABILITY, 2: AbilityId.ADAPTABILITY },
   [SpeciesId.PALDEA_WOOPER]: { 0: AbilityId.POISON_TOUCH },
   [SpeciesId.CLODSIRE]: { 0: AbilityId.THICK_FAT },
-  [SpeciesId.BLOODMOON_URSALUNA]: { 0: AbilityId.BERSERK }
+  [SpeciesId.BLOODMOON_URSALUNA]: { 0: AbilityId.BERSERK },
+  [SpeciesId.FOLIAT]: { 0: AbilityId.GRASSY_SURGE }
 };

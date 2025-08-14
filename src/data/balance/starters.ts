@@ -616,6 +616,7 @@ export const speciesStarterCosts = {
   [SpeciesId.PALDEA_TAUROS]: 5,
   [SpeciesId.PALDEA_WOOPER]: 3,
   [SpeciesId.BLOODMOON_URSALUNA]: 5,
+  [SpeciesId.FOLIAT]: 5,
 };
 
 const starterCandyCosts: { passive: number; costReduction: [number, number]; egg: number; }[] = [

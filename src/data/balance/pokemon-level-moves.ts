@@ -18931,6 +18931,25 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [ 56, MoveId.MOONBLAST ],
     [ 64, MoveId.HAMMER_ARM ],
     [ 70, MoveId.BLOOD_MOON ],
+  ],
+  [SpeciesId.FOLIAT]: [
+    [ RELEARN_MOVE, MoveId.MOONLIGHT ],
+    [ 1, MoveId.HEADLONG_RUSH ],
+    [ 1, MoveId.SCRATCH ],
+    [ 1, MoveId.LEER ],
+    [ 1, MoveId.LICK ],
+    [ 8, MoveId.FURY_SWIPES ],
+    [ 13, MoveId.PAYBACK ],
+    [ 17, MoveId.HARDEN ],
+    [ 22, MoveId.SLASH ],
+    [ 25, MoveId.PLAY_NICE ],
+    [ 35, MoveId.SCARY_FACE ],
+    [ 41, MoveId.REST ],
+    [ 41, MoveId.SNORE ],
+    [ 48, MoveId.EARTH_POWER ],
+    [ 56, MoveId.MOONBLAST ],
+    [ 64, MoveId.HAMMER_ARM ],
+    [ 70, MoveId.BLOOD_MOON ],
   ]
 };
 
@@ -20017,5 +20036,5 @@ export const pokemonFormLevelMoves: PokemonSpeciesFormLevelMoves = {
       [ 55, MoveId.WAVE_CRASH ],
       [ 60, MoveId.CLOSE_COMBAT ],
     ]
-  }
+  },
 };
