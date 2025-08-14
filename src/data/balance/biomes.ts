@@ -247,9 +247,9 @@ export const biomePokemonPools: BiomePokemonPools = {
     [BiomePoolTier.RARE]: {
       [TimeOfDay.DAWN]: [],
       [TimeOfDay.DAY]: [],
-      [TimeOfDay.DUSK]: [ SpeciesId.FOLIAT ],
+      [TimeOfDay.DUSK]: [],
       [TimeOfDay.NIGHT]: [],
-      [TimeOfDay.ALL]: [ { 1: [ SpeciesId.BULBASAUR ], 16: [ SpeciesId.IVYSAUR ], 32: [ SpeciesId.VENUSAUR ] }, SpeciesId.GROWLITHE, { 1: [ SpeciesId.TURTWIG ], 18: [ SpeciesId.GROTLE ], 32: [ SpeciesId.TORTERRA ] } ]
+      [TimeOfDay.ALL]: [ { 1: [ SpeciesId.BULBASAUR ], 16: [ SpeciesId.IVYSAUR ], 32: [ SpeciesId.VENUSAUR ] }, SpeciesId.GROWLITHE, SpeciesId.FOLIAT, { 1: [ SpeciesId.TURTWIG ], 18: [ SpeciesId.GROTLE ], 32: [ SpeciesId.TORTERRA ], } ]
     },
     [BiomePoolTier.SUPER_RARE]: { [TimeOfDay.DAWN]: [], [TimeOfDay.DAY]: [], [TimeOfDay.DUSK]: [], [TimeOfDay.NIGHT]: [], [TimeOfDay.ALL]: [ SpeciesId.SUDOWOODO ] },
     [BiomePoolTier.ULTRA_RARE]: { [TimeOfDay.DAWN]: [], [TimeOfDay.DAY]: [], [TimeOfDay.DUSK]: [], [TimeOfDay.NIGHT]: [], [TimeOfDay.ALL]: [ SpeciesId.VIRIZION ] },
@@ -7027,6 +7027,10 @@ export function initBiomes() {
     [ SpeciesId.BLOODMOON_URSALUNA, PokemonType.GROUND, PokemonType.NORMAL, [
       [ BiomeId.FOREST, BiomePoolTier.SUPER_RARE, TimeOfDay.NIGHT ],
       [ BiomeId.FOREST, BiomePoolTier.BOSS_RARE, TimeOfDay.NIGHT ]
+    ]
+    ],
+    [ SpeciesId.FOLIAT, PokemonType.GRASS, -1, [
+      [ BiomeId.GRASS, BiomePoolTier.RARE ]
     ]
     ]
   ];

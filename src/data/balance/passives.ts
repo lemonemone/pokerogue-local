@@ -1100,5 +1100,5 @@ export const starterPassiveAbilities: StarterPassiveAbilities = {
   [SpeciesId.PALDEA_WOOPER]: { 0: AbilityId.POISON_TOUCH },
   [SpeciesId.CLODSIRE]: { 0: AbilityId.THICK_FAT },
   [SpeciesId.BLOODMOON_URSALUNA]: { 0: AbilityId.BERSERK },
-  [SpeciesId.FOLIAT]: { 0: AbilityId.GRASSY_SURGE }
+  [SpeciesId.FOLIAT]: { 0: AbilityId.TRIAGE }
 };
