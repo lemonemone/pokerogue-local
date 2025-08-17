@@ -2090,6 +2090,7 @@ export enum SpeciesId {
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pokémon) | Source} */
   FOLIAT = 3001,
   FLORABRI = 3002,
+  FLORESSUM = 3003,
   GALAR_MEOWTH = 4052,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pokémon) | Source} */
   GALAR_PONYTA = 4077,
