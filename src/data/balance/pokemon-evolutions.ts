@@ -1856,7 +1856,13 @@ export const pokemonEvolutions: PokemonEvolutions = {
   [SpeciesId.GIMMIGHOUL]: [
     new SpeciesFormEvolution(SpeciesId.GHOLDENGO, "chest", "", 1, null, {key: EvoCondKey.EVO_TREASURE_TRACKER, value: 10}, SpeciesWildEvolutionDelay.VERY_LONG),
     new SpeciesFormEvolution(SpeciesId.GHOLDENGO, "roaming", "", 1, null, {key: EvoCondKey.EVO_TREASURE_TRACKER, value: 10}, SpeciesWildEvolutionDelay.VERY_LONG)
-  ]
+  ],
+  [SpeciesId.FOLIAT]: [
+    new SpeciesEvolution(SpeciesId.FLORABRI, 16, null, null)
+  ],
+  [SpeciesId.FLORABRI]: [
+    new SpeciesEvolution(SpeciesId.FLORESSUM, 32, null, null)
+  ],
 };
 
 interface PokemonPrevolutions {

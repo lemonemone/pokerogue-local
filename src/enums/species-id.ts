@@ -2050,6 +2050,12 @@ export enum SpeciesId {
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Pecharunt_(Pokémon) | Source} */
   PECHARUNT,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pokémon) | Source} */
+  FOLIAT,
+  /**{@link https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pokémon) | Source} */
+  FLORABRI,
+  /**{@link https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pokémon) | Source} */
+  FLORESSUM,
+  /**{@link https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pokémon) | Source} */
   ALOLA_RATTATA = 2019,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pokémon) | Source} */
   ALOLA_RATICATE = 2020,
@@ -2088,9 +2094,6 @@ export enum SpeciesId {
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Floette_(Pokémon) | Source} */
   ETERNAL_FLOETTE = 2670,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pokémon) | Source} */
-  FOLIAT = 3001,
-  FLORABRI = 3002,
-  FLORESSUM = 3003,
   GALAR_MEOWTH = 4052,
   /**{@link https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pokémon) | Source} */
   GALAR_PONYTA = 4077,

@@ -1716,6 +1716,9 @@ export function initSpecies() {
       new PokemonForm("Stellar Form", "stellar", PokemonType.NORMAL, null, 1.7, 77, AbilityId.TERAFORM_ZERO, AbilityId.NONE, AbilityId.NONE, 700, 160, 105, 110, 130, 110, 85, 5, 50, 140)
     ),
     new PokemonSpecies(SpeciesId.PECHARUNT, 9, false, false, true, "Subjugation Pokémon", PokemonType.POISON, PokemonType.GHOST, 0.3, 0.3, AbilityId.POISON_PUPPETEER, AbilityId.NONE, AbilityId.NONE, 600, 88, 88, 160, 88, 88, 88, 3, 0, 300, GrowthRate.SLOW, null, false),
+    new PokemonSpecies(SpeciesId.FOLIAT, 1, false, false, false, "Fledgling Pokémon", PokemonType.GRASS, null, 0.7, 6.9, AbilityId.OVERGROW, AbilityId.NONE, AbilityId.CHLOROPHYLL, 318, 42, 42, 45, 68, 46, 75, 45, 50, 64, GrowthRate.MEDIUM_SLOW, 87.5, false),
+    new PokemonSpecies(SpeciesId.FLORABRI, 1, false, false, false, "Fledgling Pokémon", PokemonType.GRASS, PokemonType.FLYING, 0.7, 6.9, AbilityId.OVERGROW, AbilityId.NONE, AbilityId.CHLOROPHYLL, 318, 42, 42, 45, 68, 46, 75, 45, 50, 64, GrowthRate.MEDIUM_SLOW, 87.5, false),
+    new PokemonSpecies(SpeciesId.FLORESSUM, 1, false, false, false, "Fledgling Pokémon", PokemonType.GRASS, PokemonType.FLYING, 0.7, 6.9, AbilityId.OVERGROW, AbilityId.NONE, AbilityId.CHLOROPHYLL, 318, 42, 42, 45, 68, 46, 75, 45, 50, 64, GrowthRate.MEDIUM_SLOW, 87.5, false),
     new PokemonSpecies(SpeciesId.ALOLA_RATTATA, 7, false, false, false, "Mouse Pokémon", PokemonType.DARK, PokemonType.NORMAL, 0.3, 3.8, AbilityId.GLUTTONY, AbilityId.HUSTLE, AbilityId.THICK_FAT, 253, 30, 56, 35, 25, 35, 72, 255, 70, 51, GrowthRate.MEDIUM_FAST, 50, false),
     new PokemonSpecies(SpeciesId.ALOLA_RATICATE, 7, false, false, false, "Mouse Pokémon", PokemonType.DARK, PokemonType.NORMAL, 0.7, 25.5, AbilityId.GLUTTONY, AbilityId.HUSTLE, AbilityId.THICK_FAT, 413, 75, 71, 70, 40, 80, 77, 127, 70, 145, GrowthRate.MEDIUM_FAST, 50, false),
     new PokemonSpecies(SpeciesId.ALOLA_RAICHU, 7, false, false, false, "Mouse Pokémon", PokemonType.ELECTRIC, PokemonType.PSYCHIC, 0.7, 21, AbilityId.SURGE_SURFER, AbilityId.NONE, AbilityId.NONE, 485, 60, 85, 50, 95, 85, 110, 75, 50, 243, GrowthRate.MEDIUM_FAST, 50, false),
@@ -1779,7 +1782,6 @@ export function initSpecies() {
       new PokemonForm("Aqua Breed", "aqua", PokemonType.FIGHTING, PokemonType.WATER, 1.4, 110, AbilityId.INTIMIDATE, AbilityId.ANGER_POINT, AbilityId.CUD_CHEW, 490, 75, 110, 105, 30, 70, 100, 45, 50, 172, false, null, true)
     ),
     new PokemonSpecies(SpeciesId.PALDEA_WOOPER, 9, false, false, false, "Water Fish Pokémon", PokemonType.POISON, PokemonType.GROUND, 0.4, 11, AbilityId.POISON_POINT, AbilityId.WATER_ABSORB, AbilityId.UNAWARE, 210, 55, 45, 45, 25, 25, 15, 255, 50, 42, GrowthRate.MEDIUM_FAST, 50, false),
-    new PokemonSpecies(SpeciesId.BLOODMOON_URSALUNA, 9, true, false, false, "Peat Pokémon", PokemonType.GROUND, PokemonType.NORMAL, 2.7, 333, AbilityId.MINDS_EYE, AbilityId.NONE, AbilityId.NONE, 555, 113, 70, 120, 135, 65, 52, 75, 50, 278, GrowthRate.MEDIUM_FAST, 50, false),
-    new PokemonSpecies(SpeciesId.FOLIAT, 1, false, false, false, "Fledgling Pokémon", PokemonType.GRASS, null, 0.7, 6.9, AbilityId.OVERGROW, AbilityId.NONE, AbilityId.CHLOROPHYLL, 318, 42, 42, 45, 68, 46, 75, 45, 50, 64, GrowthRate.MEDIUM_SLOW, 87.5, false)
+    new PokemonSpecies(SpeciesId.BLOODMOON_URSALUNA, 9, true, false, false, "Peat Pokémon", PokemonType.GROUND, PokemonType.NORMAL, 2.7, 333, AbilityId.MINDS_EYE, AbilityId.NONE, AbilityId.NONE, 555, 113, 70, 120, 135, 65, 52, 75, 50, 278, GrowthRate.MEDIUM_FAST, 50, false)
   );
 }

@@ -3370,7 +3370,28 @@
 					}
 				},
                 {
-					"filename": "3001_2",
+					"filename": "1026_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 40,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 40,
+						"h": 30
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 40,
+						"h": 30
+					}
+				},
+                {
+					"filename": "1026_2",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3391,7 +3412,7 @@
 					}
 				},
 				{
-					"filename": "3001_3",
+					"filename": "1026_3",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
