@@ -18986,7 +18986,7 @@ export const pokemonSpeciesLevelMoves: PokemonSpeciesLevelMoves = {
     [ 43, MoveId.SOLAR_BEAM ],
     [ 46, MoveId.MIRROR_MOVE ],
   ],
-  [SpeciesId.KIDLING]: [ [ 1, MoveId.TACKLE ], ],
+[SpeciesId.KIDLING]: [		[ 1, MoveId.TACKLE ], 		[ 1, MoveId.TAIL_WHIP ], 		[ 7, MoveId.EMBER ], 		[ 10, MoveId.ODOR_SLEUTH ], 		[ 13, MoveId.HEADBUTT ], 		[ 16, MoveId.FLAME_CHARGE ], 		[ 19, MoveId.AGILITY ], 		[ 22, MoveId.POPULATION_BOMB ], 		[ 25, MoveId.BULK_UP ], 		[ 28, MoveId.AXE_KICK ], 		[ 31, MoveId.BLAZE_KICK ], 		[ 34, MoveId.POUNCE ], 		[ 37, MoveId.ROCK_CLIMB ], 		[ 40, MoveId.SWAGGER ], 		[ 43, MoveId.FLAMETHROWER ], 		[ 46, MoveId.DOODLE ], 		[ 49, MoveId.FLARE_BLITZ ], 		[ 52, MoveId.SKULL_BASH ], ],		
   [SpeciesId.PYROAT]: [ [ 1, MoveId.TACKLE ], ],
   [SpeciesId.FLAIREES]: [ [ 1, MoveId.TACKLE ], ],
   [SpeciesId.AGUADE]: [ [ 1, MoveId.TACKLE ], ],
