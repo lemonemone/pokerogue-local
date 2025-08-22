@@ -4,7 +4,7 @@
 			"image": "pokemon_icons_1.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 254,
+				"w": 734,
 				"h": 788
 			},
 			"scale": 1,
@@ -7904,7 +7904,8 @@
 						"w": 14,
 						"h": 14
 					}
-				}
+				},
+                { "filename": "1026", "rotated": false, "trimmed": true,  "sourceSize": { "w": 32, "h": 32 }, "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 32 },"frame": { "x": 254, "y": 0, "w": 32, "h": 32  } }
 			]
 		}
 	],
