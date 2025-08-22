@@ -1,0 +1,21 @@
+{
+	"textures": [
+		{
+			"image": "pokemon_icons_10.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 960,
+				"h": 1024
+			},
+			"scale": 1,
+			"frames": [
+                { "filename": "1026", "rotated": false, "trimmed": true,  "sourceSize": { "w": 64, "h": 64 }, "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },"frame": { "x": 0, "y": 0, "w": 64, "h": 64  } },
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b180859bc4c006d56ee5322ca73fa54e:212d282258f5086ad99b3b2b95f7ec1a:6fb417eff82c0971c86b4818772ba292$"
+	}
+}
